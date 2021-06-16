@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная страница</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="logo"><img src="images/Logo.svg" alt="Logo.svg"></div>
+        <div class="menu-nav">
+            <div><a href="#">Акции</a></div>
+            <div><a href="#">Поиск</a></div>
+            <div><a href="#">Управление бронированием</a></div>
+        </div>
+    </header>
+    <div class="main">
+
+        <div class="form-section">
+            <form class="form" action="#" method="post">
+                <h4>Поиск</h4>
+                <div class="content">
+                    <div class="item">
+                        <h5>Регион</h5>
+                        <select name="" id="">
+                            <option value="">Тюмень</option>
+                            <option value="">Владивасток</option>
+                            <option value="">Таганрок</option>
+                        </select>
+                    </div>
+                    <div class="item">
+                        <h5>Дата</h5>
+                        <input type="date" name="date" id="date">
+                    </div>
+                    <div class="item">
+                        <h5>Кол-во участников</h5>
+                        <input type="text" name="users" id="users">
+                    </div>
+                    <div class="item">
+                        <h5>Уровень подготовки</h5>
+                        <select name="lvl-user" id="lvl-user">
+                            <option value="low">Начальный</option>
+                            <option value="medium">Средний</option>
+                            <option value="high">Продвинутый</option>
+                        </select>
+                    </div>
+                    <div class="item">
+                        <button type="submit"><a class="button-search" href="search.html">Отправить</a></button>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        <div class="algoritm">
+            <div class="algoritm-container">
+                <div class="alg-item alg-item-first">
+                    <div class="alg-item__count"><div>1</div></div>
+                    <div class="alg-item__text">
+                        Сначала идёт покупка
+                    </div>
+                </div>
+                <div class="alg-border"></div>
+                <div class="alg-item ">
+                    <div class="alg-item__count alg-item-second">
+                        <div>2</div>
+                    </div>
+                    <div class="alg-item__text">
+                        Оформление заказа
+                    </div>
+                </div>
+                <div class="alg-border"></div>
+                <div class="alg-item alg-item-first">
+                    <div class="alg-item__count">
+                        <div>3</div>
+                    </div>
+                    <div class="alg-item__text">
+                        Сначала идёт покупка
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="sales">
+            <h4 class="sales-title">Наши акции</h4>
+            <div class="item-right item-sales">
+                <div><img src="images/item.jpg" alt="item.jpg" srcset=""></div>
+                <div class="sales-content">
+                    <h5 class="title"></h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo rerum eligendi minus repellat alias illo adipisci architecto. Totam, voluptatibus vel.</p>
+                    <button>
+                        <a href="#">Подробнее</a>
+                    </button>
+                </div>
+            </div>
+            <div class="item-left item-sales">
+                <div><img src="images/item.jpg" alt="item.jpg" srcset=""></div>
+                <div class="sales-content">
+                    <h5 class="title"></h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo rerum eligendi minus repellat alias illo adipisci
+                        architecto. Totam, voluptatibus vel.</p>
+                    <button>
+                        <a href="#">Подробнее</a>
+                    </button>
+                </div>
+            </div>
+            <div class="item-right item-sales">
+                <div><img src="images/item.jpg" alt="item.jpg" srcset=""></div>
+                <div class="sales-content">
+                    <h5 class="title"></h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo rerum eligendi minus repellat alias illo adipisci
+                        architecto. Totam, voluptatibus vel.</p>
+                    <button>
+                        <a href="#">Подробнее</a>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="block-default">
+            <h4 class="block-default__title">Наша цель:</h4>
+            <p class="block-default__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, repellendus eius corrupti commodi est fugiat, quas perferendis iure aspernatur in possimus laudantium nobis maiores, nam sequi. Adipisci natus deleniti eos!</p>
+        </div>
+
+        <div class="block-default">
+            <h4 class="block-default__title">Наш девиз:</h4>
+            <p class="block-default__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, provident asperiores? Recusandae quos numquam, perspiciatis reprehenderit temporibus quaerat sint explicabo nihil velit dolorum officia blanditiis architecto laboriosam perferendis harum odio?</p>
+        </div>
+
+        <div class="reviews">
+            <h2>Отзывы:</h2>
+            <div class="reviews__item">
+                <h4>Виталя</h4>
+                <p>Мне бомба</p>
+            </div>
+            <div class="reviews__item">
+                <h4>Иван</h4>
+                <p>Мне бомб1а</p>
+            </div>
+        </div>
+
+        <div class="email">
+            <h4>Подпишитесь на рассылку</h4>
+            <div class="email-content">
+                <input type="text" name="" id="" value="Ваша почта">
+                <button type="submit">Подписаться</button>
+            </div>
+        </div>
+
+    </div>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-item">
+                <div class="footer-item-title">
+                    Телефон для связи:
+                </div>
+                <div class="footer-item-phone">
+                    8-800-555-35-35
+                </div>
+            </div>
+            <div class="footer-item">
+                <a href="#">Главная</a>
+                <a href="#">Акции</a>
+                <a href="#">Упралвение бронированием</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
